@@ -1,5 +1,8 @@
 /**
+ * Copyright (C) 2016- @rey1229/@rey_DVL All Rights Reserved.
  *
+ * rey’s developer blog
+ * http://rey1229.hatenablog.com/
  */
 package jp.rey1229.verification;
 
@@ -64,6 +67,7 @@ public class AdCalToJPCal {
 				System.out.println("Exception：西暦" + iArr[0] + "年" + iArr[1] + "月" + iArr[2] + "日  （" + e.toString() + ")");
 			}
 		}
+
 	}
 
 }
