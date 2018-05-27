@@ -4,6 +4,7 @@
  * rey’s developer blog
  * http://rey1229.hatenablog.com/
  */
+
 package jp.rey1229.verification;
 
 import java.time.chrono.JapaneseChronology;
@@ -14,7 +15,7 @@ import java.util.List;
 
 /**
  * 西暦から和暦変換テスト
- * (JavaSE8)
+ * (JavaSE8).
  * @author rey1229
  *
  */
@@ -52,8 +53,11 @@ public class AdCalToJPCal {
 		adList.add(new int[]{1989, 1, 1});
 		adList.add(new int[]{1989, 1, 7});
 		adList.add(new int[]{1989, 1, 8});
+		//平成→新元号
+		adList.add(new int[]{2019, 4, 30});
+		adList.add(new int[]{1989, 5, 1});
+		adList.add(new int[]{1989, 5, 2});
 		// CHECKSTYLE:ON
-
 
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("Gy年M月d日")
 		        .withChronology(JapaneseChronology.INSTANCE);
@@ -67,6 +71,8 @@ public class AdCalToJPCal {
 				System.out.println("Exception：西暦" + iArr[0] + "年" + iArr[1] + "月" + iArr[2] + "日  （" + e.toString() + ")");
 			}
 		}
+
+
 
 	}
 
