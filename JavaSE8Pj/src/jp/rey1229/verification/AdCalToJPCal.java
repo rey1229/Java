@@ -1,7 +1,7 @@
 /**
- * Copyright (C) 2016- @rey1229/@rey_DVL All Rights Reserved.
+ * Copyright (C) 2016- @SeitaDev All Rights Reserved.
  *
- * rey’s developer blog
+ * Seita developer blog
  * http://rey1229.hatenablog.com/
  */
 
