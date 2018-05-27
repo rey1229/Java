@@ -55,8 +55,8 @@ public class AdCalToJPCal {
 		adList.add(new int[]{1989, 1, 8});
 		//平成→新元号
 		adList.add(new int[]{2019, 4, 30});
-		adList.add(new int[]{1989, 5, 1});
-		adList.add(new int[]{1989, 5, 2});
+		adList.add(new int[]{2019, 5, 1});
+		adList.add(new int[]{2019, 5, 2});
 		// CHECKSTYLE:ON
 
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("Gy年M月d日")
